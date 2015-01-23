@@ -6,6 +6,14 @@ $(document).ready(function() {
 		$(span_id).toggleClass('glyphicon-chevron-down glyphicon-chevron-right');
 		$(div_id).toggle("clip");
 	});
-	$("#1").trigger("click");
-	
+
+   setTimeout(function () {
+    $("#1").trigger("click");
+   }, 1000);
+
 });
+
+
+	
+
+
