@@ -9,7 +9,7 @@ $(document).ready(function() {
 
    setTimeout(function () {
     $("#1").trigger("click");
-   }, 1000);
+   }, 750);
 
 });
 
