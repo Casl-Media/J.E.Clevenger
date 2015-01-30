@@ -4,6 +4,13 @@
     stroke: black;
     shape-rendering: crispEdges;
 }
+
+.mini_axis path, .mini_axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
 .selected {
     stroke: #6C7A89;
     stroke-width: 5;
