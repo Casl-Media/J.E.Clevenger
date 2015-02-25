@@ -1,0 +1,9 @@
+1. complete data for timeline
+2. make text boxes for timeline info better, nav cleaner with mini map, maybe force width or give names to maps
+3. break timeline out to let other people replace the data easily, compare to other D3 projects like this, i know there are a couple
+4. donation link
+5. actually do some writing
+6. update projects descriptions
+7. make animations prettier, cleaner on phones
+8. move css from html elements to custom.css
+9. bubble view
