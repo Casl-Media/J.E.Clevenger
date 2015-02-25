@@ -53,6 +53,11 @@ body {
 	font-size: 14px;
 }
 
-.toollink {
+#div_5 div {
      font-weight:300;
+}
+
+#mini_svg, #svg {
+    background-color: #EEE
+    border-radius: 5px;
 }

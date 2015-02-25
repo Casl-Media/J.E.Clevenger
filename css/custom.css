@@ -56,3 +56,7 @@ body {
 #div_5 div {
      font-weight:300;
 }
+
+#mini_svg, #svg {
+    background-color: #EEE
+}
