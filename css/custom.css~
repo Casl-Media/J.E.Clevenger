@@ -59,5 +59,4 @@ body {
 
 #mini_svg, #svg {
     background-color: #EEE
-    border-radius: 5px;
 }
