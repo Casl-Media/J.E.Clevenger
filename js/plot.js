@@ -177,7 +177,7 @@ $(document).ready(function() {
 					d3.selectAll("rect").classed("selected", false);
 					d3.select(this).classed("selected", true);
 					$root.animate({
-						scrollTop: $( "h3#3" ).offset().top
+						scrollTop: $( "h5#scrolltarget" ).offset().top
 					}, 500);
 					return false;
 
@@ -281,7 +281,7 @@ $(document).ready(function() {
 					d3.selectAll("rect").classed("selected", false);
 					d3.select(this).classed("selected", true);
 					$root.animate({
-						scrollTop: $( "h3#3" ).offset().top
+						scrollTop: $( "div#mini_timeline" ).offset().top
 					}, 500);
 					return false;
 
