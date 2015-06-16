@@ -20,6 +20,26 @@
 
     <style>
 
+    .node {
+      cursor: pointer;
+    }
+
+    .node circle {
+      fill: #fff;
+      stroke: steelblue;
+      stroke-width: 1.5px;
+    }
+
+    .node text {
+      font: 10px sans-serif;
+    }
+
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 1.5px;
+    }
+
     </style>
   </head>
   <body style="font-size: 16px">
@@ -29,6 +49,24 @@
         <div class="row" style="padding-top: 2em;">
             <div class="col-md-12">
                 <p>back to <a href="index.html">index</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3><small>June 15th, 2015</small></h3>
+                <p>Some of the ideas have started to come alive and are hosted on <a href="https://github.com/Casl-Media/teds">GitHub</a></p>
+                <p>A sample of which can be seen below. Given a standard structure a standard visualization should be available, the medium between the the structure and the visual is a data format. The format should contain the structure, file based structures seem to be self-explanatory. JSON is a good example for a file-based medium to contain tree data.</p>
+                <p>D3 provides a nice <a href="http://bl.ocks.org/mbostock/4339083">collapsible tree visualization</a>. Mike Bostock (D3 creator) implements this using the <a href="https://gist.github.com/mbostock/1093025">flare.json</a> data format.</p>
+                <p>I think the true power in visualizations is allowing others to implement the same method with their own data. Everyone should be leveraging these powerful visualizations for knowledge, sharing all along the way.</p>
+                <p>Casl Media created <a href="https://github.com/Casl-Media/teds/blob/master/relational_data_explorer/folder_structure/tree.py">this script</a> to help the world explore tree data structures. The current implementation uses a folder structure to create data in flare.json format.</p>
+                <ul> some far reaching ideas associated with this implementation:
+                    <li>help people explore their computers, operating systems, etc (you can use the script to explore any directory, e.g. your operating system base directory)</li>
+                    <li>expand on nodes to include more meta data, why things are where they are in the tree</li>
+                    <li>demonstrate how the flare.json format captures the tree structure</li>
+                </ul>
+            </div>
+            <div id="sample" class="col-md-12" style="border: 2px solid #eee;">
+                <h3>click on the nodes. folder structure can be found in the <a href="https://github.com/Casl-Media/teds/tree/master/relational_data_explorer/folder_structure/sample_dir">repo</a>.</h3>
             </div>
         </div>
         <div class="row">
@@ -47,6 +85,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
 	
 	<script src="../js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="../js/sample_data.js"></script>
+    <script src="../js/teds.js"></script>
+
     </body>
 </html>
 
