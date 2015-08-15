@@ -8,9 +8,6 @@ jQuery show/hide div for navigation
 <a href="https://github.com/Casl-Media/jec-timeline">jec-timeline</a> implementation (D3.js and jQuery)
 </li>
 <li>
-jQuery publishing text data based on json format (not currently in jec-timeline)
-</li>
-<li>
 table sort <a href="http://tablesorter.com/docs/">http://tablesorter.com/docs/</a>
 </li>
 <li>some dismal writing attempts</li>
