@@ -51,6 +51,7 @@ body {
 }
 #timeview h5 small {
 	font-size: 14px;
+    display: inline-block;
 }
 
 #div_5 div {
