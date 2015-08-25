@@ -3,8 +3,8 @@ $(document).ready(function() {
 		var margin = {top: 20, right: 20, bottom: 20, left: 20},
             mini_margin = {top: 2, right: 0, bottom: 2, left: 0},
 			width = 600,
-			height = 1500,
-			mini_width = 300,
+			height = 2000,
+			mini_width = 305,
 			mini_height = 144;
 	//create svg
 		svg = d3.select("#timeline").append("svg").attr({
