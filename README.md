@@ -1,4 +1,4 @@
-<h2>hosted at <a href="http://jeclevenger.com/static-sites/jeclevenger/">jeclevenger.com/static-sites/jeclevenger</a></h2>
+<h2>hosted at <a href="http://jeclevenger.com/static-site/jeclevenger/">jeclevenger.com/static-site/JEClevenger-v1</a></h2>
 <p><a href="http://jeclevenger.com">JEClevenger.com</a> the first iteration</p>
 <hr>
 <h3>examples found in code:</h3>
